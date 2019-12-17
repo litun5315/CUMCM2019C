@@ -1,0 +1,50 @@
+！！！重要函数代码！！！
+
+%%%%%%%%%
+%距离获得函数
+function [distan] = distanGet(xbefore,ybefore,xafter,yafter)
+%输入两段的经纬度，计算两者距离
+R = 6371;
+distan_x = abs(2*R * asin( sqrt( sin(0.5*ybefore-0.5*yafter)^2))/100);
+distan_y = abs(2*R * asin( sqrt( cos(yafter)^2 * sin(0.5*xbefore-0.5*xafter)^2))/100);
+distan = distan_x+distan_y;  
+end
+%%%%%%%%%%
+
+%%%%%%%%%%
+%价格获取函数
+function [money] = MoneyOfTaxi(m)
+%输入里程数,时间，计算价格
+    if m < 3
+        money = 14;
+    elseif m < 15
+        money = 14 + ( m - 3 ) * 2.5;
+    else
+        money = 14 + ( 15 - 3 ) * 2.5 +( m - 15 ) * 3.6;
+    end
+end
+%%%%%%%%%%
+
+%%%%%%%%%%
+%第四问仿真数据获取函数
+function [flightTime,shortTime,longTime,shortGet,longGet] = para(time)
+%输出的参数有 飞架航班间隔情况 长短途所需时间 长短途所获得金额
+    if time < 6
+        flightTime = ceil((1/1.2)*100)/100;      
+    elseif time < 12
+        flightTime = ceil((1/13.33)*100)/100;  
+    elseif time <18
+        flightTime = ceil((1/20.83)*100)/100;
+    else
+        flightTime = ceil((1/26.33)*100)/100;   
+    end
+    shortLen = rand * 15 / 50;
+    longLen = (rand * (45-3) + 30) / 50;
+    
+    shortTime = ceil((shortLen)*100)/100;
+    longTime = ceil((longLen)*100)/100;
+    
+    shortGet = 14 + (shortLen * 50 - 3) * 2.7;
+    longGet = ( longLen * 50 - 15 ) * 2.7 +14;
+end
+%%%%%%%%%%
