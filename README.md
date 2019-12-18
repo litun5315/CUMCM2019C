@@ -4,6 +4,13 @@ introduction:
 
 our prize-winning work in **CUMCM2919C** is released in this repository, including code and paper.
 
+## THANKS
+
+Thanks to my teammates.
+
+> Kaike He, Hefei University of Technology
+> Yueming He, Hefei University of Technology
+
 ## paper
 
 To get paper, go to fold direction as follow:
@@ -26,10 +33,3 @@ Due to dataset is too large, we upload dataset on onedrive, readers can download
 >   - download [here](https://mailhfuteducn-my.sharepoint.com/:f:/g/personal/leetun2001_mail_hfut_edu_cn/EqA_AKTQKhFMm4epzZzl3bsB9l9uV-g5Y9giPctMXrUVoQ?e=S1sXst).
 > - dataset of **Question 4**
 >   - download [here](https://mailhfuteducn-my.sharepoint.com/:f:/g/personal/leetun2001_mail_hfut_edu_cn/EgKZD7vY2zxKgvfr382C1sQBW-YHGkIShgQG8jb5HQXDMg?e=n608xN).
-
-## THANKS
-
-Thanks to my teammates.
-
-> Kaike He,
-> Yueming He.
