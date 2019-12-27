@@ -2,7 +2,7 @@
 
 introduction:
 
-our prize-winning work in **CUMCM2919C** is released in this repository, including code and paper.
+our prize-winning work in **CUMCM2019C** is released in this repository, including code and paper.
 
 ## THANKS
 
