@@ -1,8 +1,6 @@
 # CUMCM 2019C
 
-introduction:
-
-our prize-winning work in **CUMCM2019C** is released in this repository, including code and paper.
+Our prize-winning work in **CUMCM2019C** is released in this repository, including code and paper.
 
 ## THANKS
 
@@ -11,18 +9,6 @@ Thanks to my teammates.
 > Kaike He, Hefei University of Technology
 
 > Yueming He, Hefei University of Technology
-
-## paper
-
-To get paper, go to fold direction as follow:
-
-> ./paper
-
-## code 
-
-To get code, go to the fold direction as follow:
-
-> ./code
 
 ## dataset
 
